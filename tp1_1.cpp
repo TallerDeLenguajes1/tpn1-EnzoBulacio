@@ -6,6 +6,7 @@ int main(){
     num=20;
     dir_num=&num;
     byte=sizeof(num);
+    cout<<"lo que almacena el puntero: "<<*dir_num<<endl;
 	cout<<"direccion de memoria del puntero almacenado la variable: "<<dir_num<<endl;
 	cout<<"direccion de memoria del la variable: "<<&num<<endl; //deireccion de memoria
     cout<<"direccion del puntero: "<<&dir_num<<endl;
